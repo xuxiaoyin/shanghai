@@ -1,0 +1,121 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	width: 100%;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #292929;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+
+.header{
+	width: 1200px;
+	padding: 28px 0;
+	margin: 0 auto;
+}
+.header .phone{
+	font-size: 0;
+	line-height: 18px;
+	height: 18px;
+}
+.header .phone>div{
+	display: inline-block;
+	font-size: 12px;
+}
+.header .phone .share{
+	margin-left: 36px;
+}
+.header .phone .number{
+	padding-left: 22px;
+	background: url(../images/phone.jpg) no-repeat 0 center;
+}
+
+.nav{
+	height: 64px;	
+	line-height: 64px;
+	font-size: 18px;
+	border-bottom: 2px solid #5c5c5d;
+}
+.nav .nav-list{
+	width: 1200px;
+	margin: 0 auto;
+}
+.active{
+	color: #c51230;
+}
+.nav .list{
+	float: left;
+	position: relative;
+	padding: 0 24px;
+}
+.nav .sub-nav{
+	display: none;
+	position: absolute;
+	width: 100%;
+	padding: 8px 0;
+	left: 0;
+	top: 64px;
+	z-index: 99;
+	text-align: center;
+	font-size: 14px;
+	background: #6d6d6e;
+	transition: all 1s;
+}
+.sub-nav li{
+	line-height: 36px;
+	border-bottom: 1px dashed #8b8a8b;
+}
+.sub-nav li:nth-last-of-type(1){
+	border: none;
+}
+.sub-nav li a{
+	color: #ddd;
+}
+
+body{
+	position: relative;
+	width: 100%;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.banner-list{
+	position: relative;
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+}
+.banner-list img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+.banner .swiper-pagination-bullet-active{
+	background: #fff;
+}
+.banner .swiper-pagination-bullet{
+	background: #616161;
+}

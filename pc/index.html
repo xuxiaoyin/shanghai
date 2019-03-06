@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/share.css" type="text/css" />
+<script src="js/jquery1.8.2.min.js" type="text/javascript"></script>
+<script src="js/share.js" type="text/javascript"></script>
+<script src="js/swiper.min.js"></script>
+</head>
+<body>
+	<!--header S-->
+	<div class="header clear">
+		<div class="logo left">
+			<a href="index.html">
+				<img  src="images/logo.png"/>
+			</a>
+		</div>
+		<div class="phone right">
+			<div class="number">
+				24小时全国免费咨询热线<span>400-400-400</span>
+			</div>
+			<div class="share" id="socialShare"></div>
+		</div>
+	</div>
+	<!--header E-->
+	<script>
+        $(function() {
+            $("#socialShare").socialShare({
+                content: '',
+				url:'',
+				titile:''
+            });
+        });
+    </script>
+    
+    <div class="nav">
+    	<ul class="nav-list">
+    		<li class="list">
+    			<a href="index.html" class="item active">首页</a>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">关于我们</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">参展服务</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">观众服务</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">专家顾问</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">新闻中心</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">表彰奖励</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">往届回顾</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">成果转化</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    		<li class="list">
+    			<a href="#" class="item">下载中心</a>
+    			<ul class="sub-nav">
+    				<li><a href="#">展会介绍</a></li>
+					<li><a href="#">组织机构</a></li>
+					<li><a href="#">展馆介绍</a></li>
+					<li><a href="#">展会日程</a></li>
+					<li><a href="#">联系我们</a></li>
+    			</ul>
+    		</li>
+    	</ul>
+    </div>
+    
+    
+    <div class="swiper-container banner">
+	    <div class="swiper-wrapper banner-wrap">
+	      <div class="swiper-slide banner-list">
+	      	<img src="images/banner1.jpg" />
+	      </div>
+	      <div class="swiper-slide banner-list">
+	      	<img src="images/banner2.jpg" />
+	      </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination banner-pagination"></div>
+	</div>
+
+    
+   <script type="text/javascript">
+   	var navtimer=null;
+   	$(".nav .list").mouseover(function(){
+   		var that=this;
+   		clearTimeout(navtimer);
+   		navtimer=setTimeout(function(){
+   			$(".nav .sub-nav").css('display','none');
+   			$(that).children('.sub-nav').css('display','block');
+   		},200)
+   	}).mouseout(function(){
+   		clearTimeout(navtimer);
+   		var that=this;
+   		navtimer=setTimeout(function(){
+   			$(".nav .sub-nav").css('display','none');
+   		},200)
+   	})
+   	
+   	var swiper = new Swiper('.banner', {
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop:true,
+      pagination: {
+        el: '.banner-pagination',
+        clickable: true,
+      }
+    });
+   </script>
+</body>
+</html>
