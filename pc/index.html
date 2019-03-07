@@ -150,6 +150,7 @@
 	</div>
 	<!--banner E-->
 	
+	<!--notice S-->
 	<div class="pagesize notice">
 		<h1 class="side-title">
 			<div class="chinese">
@@ -242,6 +243,85 @@
 			<a href="#">查看更多+</a>
 		</div>
 	</div>
+	<!--notice S-->
+	
+	<!--news S-->
+	<div class="news">
+		<h1 class="side-title">
+			<div class="chinese">
+				新闻动态
+			</div>
+			<div class="english">
+				<span class="line"></span>
+				<span class="text">NEWS</span>
+				<span class="line"></span>
+			</div>
+		</h1>
+		
+		<div class="swiper-container news-swiper">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		        <div class="swiper-zoom-container">
+		          <ul class="wrap">
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news1.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news2.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news3.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news4.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news5.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          	<li class="news-list">
+		          		<a href="#">
+		          			<img src="images/news6.jpg" />
+		          			<h1 class="title">网络影视娱乐内容</h1>
+		          			<p class="detail">以“提供优质网络影视娱乐内容”为核心，打造IP（知识产权）
+内容驱动的互联网影视娱</p>
+		          		</a>
+		          	</li>
+		          </ul>
+		        </div>
+		      </div>
+		    </div>
+		    <!-- Add Navigation -->
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+  	</div>
+  
+	</div>
+	<!--news E-->
 
     
    <script type="text/javascript">
@@ -271,6 +351,14 @@
         el: '.banner-pagination',
         clickable: true,
       }
+    });
+    
+    var swiper = new Swiper('.news-swiper', {
+      zoom: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
    </script>
 </body>
