@@ -253,7 +253,7 @@ body{
 	margin: 9px;
 }
 .news-swiper .news-list:hover{
-	box-shadow:8px 0 12px rgba(0,0,0,0.3);;
+	box-shadow:8px 0 12px rgba(0,0,0,0.3);
 }
 .news-list .title{
 	width: 100%;
@@ -322,6 +322,9 @@ body{
 	width: 230px;
 	margin-right: 10px;
 	background: #fff;
+}
+.star-list:hover{
+	box-shadow:8px 0 12px rgba(0,0,0,0.3);
 }
 .star-list:nth-last-of-type(1){
 	margin-right: none;
