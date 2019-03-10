@@ -17,135 +17,404 @@
 	html.style.fontSize = pageWidth / 16 + 'px';
 </script>
 <body>
-	<div class="swiper-container menu-swiper" dir="rtl">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide menu">
-				<ul class="menu-wrap">
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">关于我们</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">参展服务</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">观众服务</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">专家顾问</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">新闻中心</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">表彰奖励</span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">往届回顾 </span>						
-						</a>
-					</li>
-					<li class="menu-item">
-						<a href="#">
-							<span class="right"><</span>
-							<span class="text">成果转化 </span>						
-						</a>
-					</li>
-				</ul>
+<!--menu S-->
+<div class="menu">
+	<div class="close" id="close-btn">
+		<a href="javascript:"><img src="images/close.png"></a>
+	</div>
+	<ul class="menu-wrap">
+		<li class="menu-item">
+			<a href="link-us.html">
+				<span class="text">关于我们</span>	
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="join.html">
+				<span class="text">参展服务</span>
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">
+				<span class="text">观众服务</span>	
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="star.html">
+				<span class="text">专家顾问</span>
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="news.html">
+				<span class="text">新闻中心</span>
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="reward.html">
+				<span class="text">表彰奖励</span>	
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">
+				<span class="text">往届回顾 </span>	
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="result.html">
+				<span class="text">成果转化 </span>	
+				<span class="right">></span>
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="download.html">
+				<span class="text">下载中心 </span>	
+				<span class="right">></span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!--menu E-->
+
+<!--main-content S-->
+<div class="main-content">
+	<div class="header">
+		<img src="images/logo.png" class="logo" />
+		<a href="javascript:" class="btn" id="menu-btn"><img src="images/btn.png"></a>
+	</div>
+	
+	<!--banner S-->
+    <div class="swiper-container banner">
+	    <div class="swiper-wrapper banner-wrap">
+	      <div class="swiper-slide banner-list">
+	      	<img data-src="images/banner1.jpg" class="swiper-lazy"/>
+	      </div>
+	      <div class="swiper-slide banner-list">
+	      	<img data-src="images/banner2.jpg" class="swiper-lazy"/>
+	      </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination banner-pagination"></div>
+	</div>
+	<!--banner E-->
+	
+	<!--notice S-->
+	<div class="notice">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			通知公告	
+		</h1>
+		<div class="wrap">
+			<div class="notice-list clear">
+				<a href="#">
+					<div class="serial">
+						<span class="number">01</span>
+						<span class="time">2018.11.08</span>
+					</div>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在</p>
+					</div>
+				</a>
 			</div>
-			<div class="swiper-slide content">
-				<div class="menu-button">
-					<div class="bar"></div>
-					<div class="bar"></div>
-					<div class="bar"></div>
-				</div>
-				<div class="main-content">
-					<div class="header">
-						<img src="images/logo.png" class="logo" />
+			<div class="notice-list clear">
+				<a href="#">
+					<div class="serial">
+						<span class="number">02</span>
+						<span class="time">2018.11.08</span>
 					</div>
-					
-					<!--banner S-->
-				    <div class="swiper-container banner">
-					    <div class="swiper-wrapper banner-wrap">
-					      <div class="swiper-slide banner-list">
-					      	<img data-src="images/banner1.jpg" class="swiper-lazy"/>
-					      </div>
-					      <div class="swiper-slide banner-list">
-					      	<img data-src="images/banner2.jpg" class="swiper-lazy"/>
-					      </div>
-					    </div>
-					    <!-- Add Pagination -->
-					    <div class="swiper-pagination banner-pagination"></div>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在...</p>
 					</div>
-					<!--banner E-->
-					
-					<!--notice S-->
-					<div class="notice">
-						<h1 class="section-title">
-							<a href="#" class="more"><img src="images/more.png"></a>
-							通知公告	
-						</h1>
-						<div class="notice-list">
-							<a href="#">
-								<div class="serial">
-									<span class="number">01</span>
-									<span class="time">2018.11.08</span>
-								</div>
-								<div class="text">
-									<div class="title">2019上海清洁展扬帆再启航</div>
-									<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在...</p>
-								</div>
-							</a>
-						</div>
-						<div class="notice-list">
-							<a href="#">
-								<div class="serial">
-									<span class="number">02</span>
-									<span class="time">2018.11.08</span>
-								</div>
-								<div class="text">
-									<div class="title">2019上海清洁展扬帆再启航</div>
-									<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在...</p>
-								</div>
-							</a>
-						</div>
-						<div class="notice-list">
-							<a href="#">
-								<div class="serial">
-									<span class="number">03</span>
-									<span class="time">2018.11.08</span>
-								</div>
-								<div class="text">
-									<div class="title">2019上海清洁展扬帆再启航</div>
-									<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在...</p>
-								</div>
-							</a>
-						</div>
+				</a>
+			</div>
+			<div class="notice-list clear">
+				<a href="#">
+					<div class="serial">
+						<span class="number">03</span>
+						<span class="time">2018.11.08</span>
 					</div>
-					<!--notice E-->
-					
-				</div>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在...</p>
+					</div>
+				</a>
 			</div>
 		</div>
+			
 	</div>
+	<!--notice E-->
+	<!--news S-->
+	<div class="news">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			新闻动态	
+		</h1>
+		<ul class="news-wrap">
+			<li class="news-list">
+				<a href="#">
+					<img src="images/news1.jpg"  class="pic"/>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在</p>
+						<div class="info">
+							<span class="history">124</span>
+							<span class="time">发布时间: 2015-08-13</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="news-list">
+				<a href="#">
+					<img src="images/news2.jpg"  class="pic"/>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在</p>
+						<div class="info">
+							<span class="history">124</span>
+							<span class="time">发布时间: 2015-08-13</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="news-list">
+				<a href="#">
+					<img src="images/news3.jpg"  class="pic"/>
+					<div class="text">
+						<div class="title">2019上海清洁展扬帆再启航</div>
+						<p class="desc">2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在2018第13届立嘉国际机械展览会·成都展会（CWMTE立嘉成都展）将于2018年10月11日至13日在</p>
+						<div class="info">
+							<span class="history">124</span>
+							<span class="time">发布时间: 2015-08-13</span>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!--news E-->
+	<!--reward S-->
+	<div class="reward">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			表彰奖励	
+		</h1>
+		<ul class="reward-wrap clear">
+			<li class="reward-list">
+				<a href="#">
+					<img src="images/reward1.jpg" class="pic" />
+					<span class="title">创业联盟一等奖</span>
+				</a>
+			</li>
+			
+			<li class="reward-list">
+				<a href="#">
+					<img src="images/reward2.jpg" class="pic"/>
+					<span class="title">创业联盟一等奖</span>
+				</a>
+			</li>
+			
+			<li class="reward-list">
+				<a href="#">
+					<img src="images/reward3.jpg" class="pic"/>
+					<span class="title">创业联盟一等奖</span>
+				</a>
+			</li>
+			
+			<li class="reward-list">
+				<a href="#">
+					<img src="images/reward4.jpg" class="pic"/>
+					<span class="title">创业联盟一等奖</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!--reward E-->
+	
+	<!--Star S-->
+	<div class="star">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			往期嘉宾	
+		</h1>
+		<ul class="star-wrap">
+			<li class="star-list">
+				<a href="#">
+					<div class="pic">
+						<img src="images/star1.jpg" />
+						<span class="name">JACK</span>
+					</div>
+					<div class="info">
+						<div class="job">非洲市场总监</div>
+						<div class="desc">我们希望把展览事业发展到全球每一个角落我们希望把展览事业发展到全球每一个角落</div>
+					</div>
+				</a>
+			</li>
+			<li class="star-list">
+				<a href="#">
+					<div class="pic">
+						<img src="images/star1.jpg" />
+						<span class="name">JACK</span>
+					</div>
+					<div class="info">
+						<div class="job">非洲市场总监</div>
+						<div class="desc">我们希望把展览事业发展到全球每一个角落我们希望把展览事业发展到全球每一个角落</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!--Star E-->
+	
+	<!--excellent S-->
+	<div class="excellent">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			优秀企业介绍	
+		</h1>
+		<ul class="excellet-wrap clear">
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent1.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent2.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent3.jpg" />
+				</a>
+			</li>
+			
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent4.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent5.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent6.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent7.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent8.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent9.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent10.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent11.jpg" />
+				</a>
+			</li>
+			<li class="excellent-list">
+				<a href="#">
+					<img src="images/excllent1.jpg" />
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+	<!--excellent E-->
+	
+	<!--reviews S-->
+	<div class="reviews">
+		<h1 class="section-title">
+			<a href="#" class="more"><img src="images/more.png"></a>
+			往届回顾	
+		</h1>
+		
+		<div class="swiper-container reviews-swiper">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news1.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news2.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news3.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news1.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news2.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		      <div class="swiper-slide">
+		      	<a href="#">
+		      		<img src="images/news3.jpg"/>
+		      		<div class="name">回顾</div>
+		      	</a>
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		  </div>
+		  
+	</div>
+	<!--reviews E-->
+	
+	<!--footer S-->
+	<div class="footer">
+		<div class="footer-logo">
+			<img src="images/logo-bottom.png" />
+			<div class="text">
+				<h1>中国(上海)国际发明创新展览会</h1>
+				<div>全国免费服务热线  400-400-400</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<p>COPYRIGHT© 2014-2017   中国上海创新展览会</p>
+			<p>ICP备案号：粤ICP备15033506号-2</p>
+		</div>
+	</div>
+	<!--footer E-->
+</div>
+<!--main-content E-->
 
 </body>
 </html>

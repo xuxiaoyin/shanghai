@@ -92,6 +92,11 @@ $(function(){
         modifier: 1,
         slideShadows : true,
       },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop:true,
       pagination: {
         el: '.swiper-pagination',
       },
